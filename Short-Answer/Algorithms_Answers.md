@@ -3,7 +3,10 @@
 ## Exercise I
 
 a)
- o(n log n)
+ a = 0
+    while (a < n * n * n):
+      a = a + n * n
+    I think this is just 0(N) because the 2 N's cancel out
 
 b)
     sum = 0
@@ -19,5 +22,5 @@ c)
 ## Exercise II
     Divide n by 2 if it doesnt break then add half of the half again until it breaks then go down until it stops breaking and the value prev is the value that the eggs stop breaking at, otherwise divide by half of half n until it stops breaking then add one till it breaks and thats the number you need
 
-    this would be O(n log n) and would be space complexity of o(1)
+    this would be O(n) and would be space complexity of o(n)
 
