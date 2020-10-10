@@ -3,13 +3,24 @@
 ## Exercise I
 
 a)
-
+ a = 0
+    while (a < n * n * n):
+      a = a + n * n
+    I think this is just 0(N) because the 2 N's cancel out
 
 b)
-
+    sum = 0
+    for i in range(n):
+      j = 1
+      while j < n:
+        j *= 2
+        sum += 1
+    (n * n /2)
 
 c)
-
+    o(n)
 ## Exercise II
+    Divide n by 2 if it doesnt break then add half of the half again until it breaks then go down until it stops breaking and the value prev is the value that the eggs stop breaking at, otherwise divide by half of half n until it stops breaking then add one till it breaks and thats the number you need
 
+    this would be O(n) and would be space complexity of o(n)
 
